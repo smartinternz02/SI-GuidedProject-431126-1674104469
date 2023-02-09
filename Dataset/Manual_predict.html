@@ -1,0 +1,42 @@
+<html>
+<body>
+<center><h1>Engine Failure Prediction Using Manual Data</h1>
+<p>Fill in and below details to know whether the engine fails with in 30 days</p></center><br>
+<center><p> {{prediction_text}}</p></center>
+<form  action="{{ url_for('y_predict')}}"  method="POST">
+<center><table>
+<tr><td><input type="text" name="id" placeholder=ID></td></tr>
+<tr><td><input type="text" name="cm" placeholder=Number of cycles per minute></td></tr><br>
+<tr><td><input type="text" name="s1" placeholder=Settings 1></td></tr>
+<tr><td><input type="text" name="s2" placeholder=Settings 2></td></tr><br>
+<tr><td><input type="text" name="s3" placeholder=Settings 3></td></tr><br>
+<tr><td><input type="text" name="se1" placeholder=Sensor1></td></tr><br>
+<tr><td><input type="text" name="se2" placeholder=Sensor2></td></tr><br>
+<tr><td><input type="text" name="se3" placeholder=Sensor3></td></tr><br>
+<tr><td><input type="text" name="se4" placeholder=Sensor4></td></tr><br>
+<tr><td><input type="text" name="se5" placeholder=Sensor5></td></tr><br>
+<tr><td><input type="text" name="se6" placeholder=Sensor6></td></tr><br>
+<tr><td><input type="text" name="se7" placeholder=Sensor7></td></tr><br>
+<tr><td><input type="text" name="se8" placeholder=Sensor8></td></tr><br>
+<tr><td><input type="text" name="se9" placeholder=Sensor9></td></tr><br>
+<tr><td><input type="text" name="se10" placeholder=Sensor10></td></tr><br>
+<tr><td><input type="text" name="se11" placeholder=Sensor11></td></tr><br>
+<tr><td><input type="text" name="se12" placeholder=Sensor12></td></tr><br>
+<tr><td><input type="text" name="se13" placeholder=Sensor13></td></tr><br>
+<tr><td><input type="text" name="se14" placeholder=Sensor14></td></tr><br>
+<tr><td><input type="text" name="se15" placeholder=Sensor15></td></tr><br>
+<tr><td><input type="text" name="se16" placeholder=Sensor16></td></tr><br>
+<tr><td><input type="text" name="se17" placeholder=Sensor17></td></tr><br>
+<tr><td><input type="text" name="se18" placeholder=Sensor18></td></tr><br>
+<tr><td><input type="text" name="se19" placeholder=Sensor19></td></tr><br>
+<tr><td><input type="text" name="se20" placeholder=Sensor20></td></tr><br>
+<tr><td><input type="text" name="se21" placeholder=Sensor21></td></tr><br>
+<tr><td><input type="text" name="se22" placeholder=Sensor22></td></tr><br>
+
+</table>
+</center>
+<center><input type="submit"></center>
+</form>
+
+</body>
+</html>
